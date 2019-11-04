@@ -1,6 +1,9 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
+    ext {
+        okhttp3_version = '3.14.1'
+    }
     repositories {
         google()
         jcenter()
